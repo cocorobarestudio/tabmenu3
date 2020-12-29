@@ -1,0 +1,38 @@
+.container {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li a {
+  display: inline-block;
+  width: 150px;
+  text-decoration: none;
+  background-color: rgb(104, 104, 104);
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 1px;
+  border-radius: 4px 4px 0px 0px;
+}
+.menu > li a.active {
+  background-color: #333;
+}
+
+.content {
+  padding: 15px;
+  border: solid 1px #333;
+  display: none;
+}
+.content.active {
+  background-color: #333;
+  color: #fff;
+  display: block;
+}
